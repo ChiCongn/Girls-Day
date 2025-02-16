@@ -1,0 +1,13 @@
+
+#falling-rose-petals {
+    width: 100%;
+    height: 100%;
+}
+
+.rose-petal {
+    width:35px;
+    height:35px;
+    position:absolute;
+    background: url(./images/rose-petal.png);
+    background-size: 100% 100%;
+}
