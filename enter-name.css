@@ -1,0 +1,71 @@
+/* Center the container */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main container */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+/* Heading */
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Input field */
+input[type="text"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ff758c;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Input focus effect */
+input[type="text"]:focus {
+    border-color: #ff4d6d;
+    box-shadow: 0px 0px 8px rgba(255, 77, 109, 0.6);
+}
+
+/* Continue Button */
+#navigate-congrats {
+    padding: 12px 20px;
+    font-size: 18px;
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover & Active Effect */
+#navigate-congrats:hover {
+    background: #d63355;
+    transform: scale(1.05);
+}
+
+#navigate-congrats:active {
+    background: #b02340;
+    transform: scale(0.98);
+}
