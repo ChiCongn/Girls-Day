@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+.floating-element {
+    position: fixed;
+    top: -100px;
+    color: inherit!important;
+    font-size: 10px;
+    opacity: 0.7;
+    animation: fall linear infinite;
+    pointer-events: none;
+}
+
+/* Falling Animation */
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+
+#image-container {
+    position: relative;
+    height: 680px;
+    width: 382px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000; /* Background for empty spaces */
+    border-radius: 10px;
+}
+
+#image-display {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Optional: Zoom in slightly on hover for effect */
+#image-display:hover {
+    transform: scale(1.05);
+}
+
+#overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75); /* Slightly darker for better contrast */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.4; /* Improve readability */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow-y: auto; /* Allow scrolling if needed */
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+
+#container-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between buttons and image-container */
+}
+
+#prev-btn, #next-btn {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+}
+
+
+#prev-btn:hover, #next-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#container-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between elements */
+    height: 150vh;
+  }
+  
+/* Left & Right GIF Containers */
+#left-gif-container,
+#right-gif-container {
+    width: 200px;  /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+#left-gif-container img,
+#right-gif-container img {
+    width: 100%;
+    height: auto;
+}

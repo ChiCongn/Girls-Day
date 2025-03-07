@@ -1,10 +1,13 @@
 
 body {
-    background-color: black;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
   
   /* CSS for glowing gradient text */
-  .glowing-text {
+.glowing-text {
     margin-top: 100px;
     text-align: center;
     font-size: 80px;
@@ -15,10 +18,10 @@ body {
     -webkit-background-clip: text;
     color: transparent;
     animation: glow 2s infinite ease-in-out, scaleEffect 3s infinite alternate;
-  }
+}
   
   /* Glow Animation */
-  @keyframes glow {
+@keyframes glow {
     0% {
         text-shadow: 0 0 10px #ff4d4d, 0 0 20px #ff6666, 0 0 30px #ff9999;
     }
@@ -28,7 +31,7 @@ body {
     100% {
         text-shadow: 0 0 10px #ff4d4d, 0 0 20px #ff6666, 0 0 30px #ff9999;
     }
-  }
+}
   
   /* Zoom Effect on Hover */
   .glowing-text:hover {
@@ -47,8 +50,6 @@ body {
       transform: scale(1);
     }
   }
-  
-  
     
     /*zoom in down effect*/
   @keyframes zoomInDown {
@@ -64,3 +65,83 @@ body {
         animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
       }
   }
+
+
+/* button */
+
+.button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#navigate-enter-name {
+  padding: 12px 24px;
+  font-size: 18px;
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#navigate-enter-name:hover {
+  background: #d63355;
+  transform: scale(1.05);
+}
+
+/* gif*/
+
+@keyframes floatUp {
+  0% { transform: translateY(100vh); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: translateY(-100vh); opacity: 0; }
+}
+
+.floating-gif {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  animation: floatUp 5s linear infinite;
+}
+
+/*floating images*/
+.floating-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.floating-image {
+  position: absolute;
+  bottom: -100px; /* Start below screen */
+  width: 100px; /* Adjust as needed */
+  animation: floatUp 8s linear infinite;
+  opacity: 0.8;
+}
+
+/* Floating animation */
+@keyframes floatUp {
+  0% {
+      transform: translateY(0);
+      opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+      opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+      transform: translateY(-100vh);
+      opacity: 0;
+  }
+}
+
