@@ -57,16 +57,23 @@ function showImage(index) {
 // Navigation Setup
 function setupNavigation() {
     console.log("navigate");
+    const leftGif = document.getElementById("left-gif");
+    const rightGif = document.getElementById("right-gif");
+
     document.getElementById("prev-btn").addEventListener("click", () => {
         if (currentUserImages.length === 0) return;
         currentIndex = (currentIndex - 1 + currentUserImages.length) % currentUserImages.length;
         showImage(currentIndex);
+        if (leftGif) leftGif.src = getRandomGif(gifList);
+        if (rightGif) rightGif.src = getRandomGif(gifList);
     });
 
     document.getElementById("next-btn").addEventListener("click", () => {
         if (currentUserImages.length === 0) return;
         currentIndex = (currentIndex + 1) % currentUserImages.length;
         showImage(currentIndex);
+        if (leftGif) leftGif.src = getRandomGif(gifList);
+        if (rightGif) rightGif.src = getRandomGif(gifList);
     });
 
     // setInterval(() => {
@@ -93,7 +100,7 @@ async function loadImages() {
 
         for (let line of lines) {
             if (line.trim() === "") continue;
-            const [id, source, owner, message] = line.split(",");
+            const [id, source, owner, message] = line.split("\t");
 
             const image = new Image(id, source, owner, message);
             imageList.push(image);
@@ -170,5 +177,5 @@ function getRandomGif(gifPaths) {
     if (rightGif) {
       rightGif.src = getRandomGif(gifList);
     }
-  });
-  
+});
+

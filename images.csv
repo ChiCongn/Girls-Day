@@ -1,10 +1,46 @@
 id	source	owner	message
-1,images/chauanh01.jpg,chau anh,To style the previous (prev-btn) and next (next-btn) buttons as tooltip-like navigation controls beside the image, follow these steps:
-2,images/chauanh02.jpg,chau anh,To position the prev and next buttons beside the #image-container like tooltips (similar to Facebook Reels), you can use CSS flexbox or absolute positioning.
-3,images/chauanh03.jpg,chau anh,imageschauanh03.jpgsjiodfhkankcjsndlknloifwjeeoifjowejlkdsksdlkfjkejfkdjweihihtiohpmknc
-4,images/maianh01.jpg,mai anh,Mối liên kết di truyền có thể làm suy yếu kết luận của nghiên cứu rằng việc tiếp xúc với ánh sáng vào ban đêm có liên quan chặt chẽ đến cận thị. Nếu cha mẹ bị cận thị có xu hướng bật đèn khi ngủ và cũng có nhiều khả năng sinh con bị cận thị, thì nguyên nhân thực sự của cận thị có thể là di truyền, chứ không phải do ánh sáng ban đêm.
-5,images/maianh02.jpg,mai anh,Điều này có nghĩa là nghiên cứu có thể đã tìm thấy một mối tương quan, nhưng thực chất lại do yếu tố di truyền thay vì ánh sáng ban đêm. Nếu không tính đến yếu tố di truyền, nghiên cứu không thể khẳng định chắc chắn rằng đèn ngủ gây ra cận thị
-6,images/ha01.jpg,viet ha,images/ha01
-7,images/ha01.jpg,viet ha,images/vietha01.jpg
-8,images/ha01.jpg,viet ha,images/vietha01.jpg
-9,images/ha01.jpg,viet ha,Mối liên kết di truyền có thể làm suy yếu kết luận của nghiên cứu rằng việc tiếp
+1	images/chauanh01.jpg	Đặng Châu Anh	a b c d e f g - h i j k 
+2	images/chauanh02.jpg	Đặng Châu Anh	Châu Anh ơi, chúc bạn "đặng gì cũng được, châu ngọc đầy tay, anh nào cũng mê". Xinh đẹp như hoa hậu, nhưng đừng để ai "đặng mà không trả" nha!
+3	images/chauanh03.jpg	Đặng Châu Anh	a b c d e f g - h i j k 
+4	images/chauanh04.jpg	Đặng Châu Anh	a b c d e f g - h i j k 
+5	images/chauanh05.jpg	Đặng Châu Anh	a b c d e f g - h i j k 
+6	images/maianh01.jpg	Phạm Mai Anh	a b c d e f g - h i j k 
+7	images/maianh02.jpg	Phạm Mai Anh	Chúc Mai Anh "mai này sớm có anh, tiền đầy tài khoản, danh vọng đầy tay". Còn nếu chưa có thì cứ bình tĩnh, quan trọng là mình vẫn đẹp!
+8	images/maianh03.jpg	Phạm Mai Anh	a b c d e f g - h i j k 
+9	images/maianh04.jpg	Phạm Mai Anh	a b c d e f g - h i j k 
+10	images/maianh05.jpg	Phạm Mai Anh	a b c d e f g - h i j k 
+11	images/kimchi01.png	Vũ Thị Kim Chi	Kim thì phải sáng, Chi thì phải vững. Chúc Kim Chi luôn rạng rỡ, thông minh và bản lĩnh, chạm đến mọi thành công mình mong muốn!
+12	images/kimchi02.png	Vũ Thị Kim Chi	a b c d e f g - h i j k 
+13	images/kimchi03.jpg	Vũ Thị Kim Chi	a b c d e f g - h i j k 
+14	images/kimchi04.jpg	Vũ Thị Kim Chi	a b c d e f g - h i j k 
+15	images/kimchi05.jpg	Vũ Thị Kim Chi	a b c d e f g - h i j k 
+16	images/vietha01.jpg	Phạm Việt Hà	a b c d e f g - h i j k 
+17	images/vietha02.jpg	Phạm Việt Hà	Hà ơi, chúc bạn "Hà hà cười cả năm, tiền vào như sóng tràn đê", nhưng nhớ "phạm" sai lầm ít thôi, đừng để "Việt vị" trong chuyện tình cảm nha!
+18	images/vietha03.jpg	Phạm Việt Hà	a b c d e f g - h i j k 
+19	images/vietha04.jpg	Phạm Việt Hà	a b c d e f g - h i j k 
+20	images/vietha05.jpg	Phạm Việt Hà	a b c d e f g - h i j k 
+21	images/phuonglinh01.jpg	Nguyễn Phương Linh	Phương Linh ơi, chúc bạn "linh hoạt như tắc kè, tiền về như thác đổ". Nhưng nhớ đừng "linh tinh" quá, kẻo ai cũng chóng mặt nha!
+22	images/phuonglinh02.jpg	Nguyễn Phương Linh	a b c d e f g - h i j k 
+23	images/phuonglinh03.jpg	Nguyễn Phương Linh	a b c d e f g - h i j k 
+24	images/phuonglinh04.jpg	Nguyễn Phương Linh	a b c d e f g - h i j k 
+25	images/phuonglinh05.jpg	Nguyễn Phương Linh	a b c d e f g - h i j k 
+26	images/phuongthao01.jpg	Đỗ Phương Thảo	Chúc Phương Thảo "thảo mai có chọn lọc, duyên dáng nhưng không giả trân". Lúc nào cũng tươi như hoa, nhưng đừng "thảo quá" kẻo bị lợi dụng nha!
+27	images/phuongthao02.jpg	Đỗ Phương Thảo	a b c d e f g - h i j k 
+28	images/phuongthao03.jpg	Đỗ Phương Thảo	a b c d e f g - h i j k 
+29	images/phuongthao04.jpg	Đỗ Phương Thảo	a b c d e f g - h i j k 
+30	images/phuongthao05.jpg	Đỗ Phương Thảo	a b c d e f g - h i j k 
+31	images/hoaithuong01.png	Nguyễn Đoàn Hoài Thương	a b c d e f g - h i j k 
+32	images/hoaithuong02.png	Nguyễn Đoàn Hoài Thương	Chúc Hoài Thương "thương hoài không chán, giàu sang không hết". Nhưng nhớ đừng "thương" ai bừa bãi, không lại hóa "thương đau" nha!
+33	images/hoaithuong03.jpg	Nguyễn Đoàn Hoài Thương	a b c d e f g - h i j k 
+34	images/hoaithuong04.jpg	Nguyễn Đoàn Hoài Thương	a b c d e f g - h i j k 
+35	images/hoaithuong05.jpg	Nguyễn Đoàn Hoài Thương	a b c d e f g - h i j k 
+36	images/thanhtuyen01.jpg	Nguyễn Thị Thanh Tuyền	a b c d e f g - h i j k 
+37	images/thanhtuyen02.jpg	Nguyễn Thị Thanh Tuyền	Thanh Tuyền ơi, chúc bạn "tuyền tuyền không lo nghĩ, tiền về như lũ cuốn". Nhưng nhớ đừng "tuyền" hết vào quần áo mỹ phẩm, không cuối tháng lại ngồi đếm lá rơi!
+38	images/thanhtuyen03.jpg	Nguyễn Thị Thanh Tuyền	a b c d e f g - h i j k 
+39	images/thanhtuyen04.jpg	Nguyễn Thị Thanh Tuyền	a b c d e f g - h i j k 
+40	images/thanhtuyen05.jpg Nguyễn Thị Thanh Tuyền	a b c d e f g - h i j k 
+41	images/ngocyen01.jpg    Nguyễn Thị Ngọc Yến	a b c d e f g - h i j k 
+42	images/ngocyen02.jpg	Nguyễn Thị Ngọc Yến	Ngọc Yến ơi, chúc bạn "Yến tiệc linh đình, ngọc ngà đầy tủ", bay cao nhưng đừng bay xa quá kẻo người ta không theo kịp!
+43	images/ngocyen03.jpg	Nguyễn Thị Ngọc Yến	a b c d e f g - h i j k 
+44	images/ngocyen04.jpg	Nguyễn Thị Ngọc Yến	a b c d e f g - h i j k 
+45	images/ngocyen05.jpg	Nguyễn Thị Ngọc Yến	a b c d e f g - h i j k 
