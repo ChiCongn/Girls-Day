@@ -101,6 +101,7 @@ async function loadImages() {
         for (let line of lines) {
             if (line.trim() === "") continue;
             const [id, source, owner, message] = line.split("\t");
+            console.log(id, source, owner, message);
 
             const image = new Image(id, source, owner, message);
             imageList.push(image);
